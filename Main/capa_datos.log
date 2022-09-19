@@ -1,0 +1,6 @@
+11:57:02 PM: INFO [MenuAppUsuario.py:26] Usuarios insertados: 1
+11:57:06 PM: ERROR [CursorDelPool.py:22] Ocurrio una excepcion, se hace rollback : 'module' object is not callable
+12:00:54 AM: INFO [MenuAppUsuario.py:26] Usuarios insertados: 1
+12:00:59 AM: ERROR [CursorDelPool.py:22] Ocurrio una excepcion, se hace rollback : 'module' object is not callable
+12:03:15 AM: INFO [MenuAppUsuario.py:20] ID Usuario: 1 Usuario:franco Password: *****
+12:03:15 AM: INFO [MenuAppUsuario.py:20] ID Usuario: 2 Usuario:asd Password: *****

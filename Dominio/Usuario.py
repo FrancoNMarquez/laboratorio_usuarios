@@ -1,14 +1,13 @@
 class Usuario:
-    cantUsuarios = 0
+    # cantUsuarios = 0
 
-    @classmethod
-    def aumentarCant(cls):
-        cls.cantUsuarios+=1
-        return cls.cantUsuarios
-    def __init__(self,username=None,password=None):
-        #El autoincremento iria aca, o pasa por parametro el id, y se autoincrementa en la base de datos?
-        self._id_usuario = Usuario.aumentarCant()
-        self._username=username
+    # @classmethod
+    # def aumentarCant(cls):
+    #     cls.cantUsuarios+=1
+    #     return cls.cantUsuarios
+    def __init__(self, id_usuario=None, username=None, password=None):
+        self._id_usuario = id_usuario
+        self._username= username
         self._password = password
 
     @property

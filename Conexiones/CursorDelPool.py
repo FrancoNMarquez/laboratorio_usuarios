@@ -1,6 +1,6 @@
 from Log.logger_base import log
 
-from Conexion import Conexion
+from Conexiones.Conexion import Conexion
 
 
 # Context Manager , debo declarar y definir el metodo enter y exit
